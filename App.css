@@ -1,0 +1,74 @@
+.App {
+    max-width: 500px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* The Strike-through logic */
+.purchased {
+    text-decoration: line-through;
+    color: #888;
+    background-color: #f9f9f9;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 5px;
+    padding: 8px;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+.input-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.grocery-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grocery-table th, .grocery-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.grocery-table tr {
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.grocery-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* STRIKE-THROUGH EFFECT from Screenshot_20260514-110540.jpg */
+.purchased-row .item-name-cell {
+  text-decoration: line-through;
+  color: gray;
+  font-style: italic;
+}
+
+.purchased-row {
+  background-color: #f9f9f9;
+}
